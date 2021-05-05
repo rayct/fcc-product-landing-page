@@ -38,7 +38,7 @@ a {
   padding: 0 20px;
   height: 40px;
   font-size: 1em;
-  font-weight: 900;
+  font-weight: 600;
   text-transform: uppercase;
   border: 3px black solid;
   border-radius: 2px;
@@ -266,14 +266,16 @@ nav > ul {
 .product > button {
   border: 0;
   margin: 15px 0;
-  background-color: #f1c40f;
-  font-weight: 400;
+  background-color: rgb(29, 129, 191);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9em;
 }
 
-.product > button:hover {
+/* .product > button:hover {
   background-color: orange;
   transition: background-color 1s;
-}
+} */
 
 @media (max-width: 800px) {
   #pricing {
